@@ -10,3 +10,4 @@ Progression :
 - Download and configure Pycharm (05/10/2021)
 - Import Flask (05/10/2021)
 - Creation of the 'hello_word' app using Pycharm/Flask (05/10/2021)
+- Creation of different path and interraction in my app (05/10/2021)
