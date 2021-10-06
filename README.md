@@ -11,3 +11,4 @@ Progression :
 - Import Flask (05/10/2021)
 - Creation of the 'hello_word' app using Pycharm/Flask (05/10/2021)
 - Creation of different path and interraction in my app (05/10/2021)
+- Implementation of the json response (06/10/2021)
