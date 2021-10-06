@@ -12,3 +12,5 @@ Progression :
 - Creation of the 'hello_word' app using Pycharm/Flask (05/10/2021)
 - Creation of different path and interraction in my app (05/10/2021)
 - Implementation of the json response (06/10/2021)
+- Implementation of GET method (06/10/2021)
+- Implementation of an adaptative response for the scores data (a, b, c, others) (06/10/2021)
