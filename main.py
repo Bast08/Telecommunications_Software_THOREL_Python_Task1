@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, request
 import json
 
 app = Flask(__name__)
@@ -9,7 +9,7 @@ data = """{
 "releaseYear": 2021,
 "courseActive": true,
 "droppedStudents": null,
-"date": 08102021,
+"date": 20211008,
 "someData": [[11,2], [22, 4], [33, 1], [44,5]],
 "scores": {"a":77, "b":46, "c":91}
 }"""
@@ -24,9 +24,13 @@ def hello_world():
 def send_data():
     return json_data
 
-@app.route('/scores', methods = ['GET'])
+@app.route('/scores', methods = ['GET',  'POST'])
 def scores():
-    return json_data["scores"]
+    if request.method == "GET":
+        return json_data["scores"]
+    else:
+        posted_data = request.form
+        return posted_data
 
 @app.route('/scores/<score_value>', methods = ['GET'])
 def score_value(score_value):
@@ -37,4 +41,3 @@ def score_value(score_value):
 
 if __name__ == '__main__':
     app.run()
-
