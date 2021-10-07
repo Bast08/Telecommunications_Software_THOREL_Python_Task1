@@ -9,7 +9,7 @@ data = """{
 "releaseYear": 2021,
 "courseActive": true,
 "droppedStudents": null,
-"date": 08-10-2021,
+"date": 08102021,
 "someData": [[11,2], [22, 4], [33, 1], [44,5]],
 "scores": {"a":77, "b":46, "c":91}
 }"""
