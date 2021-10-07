@@ -14,3 +14,4 @@ Progression :
 - Implementation of the json response (06/10/2021)
 - Implementation of GET method (06/10/2021)
 - Implementation of an adaptative response for the scores data (a, b, c, others) (06/10/2021)
+- Implementation of POST method (07/10/2021)
