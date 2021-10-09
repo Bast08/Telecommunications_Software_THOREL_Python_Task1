@@ -35,7 +35,8 @@ def scores():
         posted_data = request.form.get('a')
         return posted_data
     else:
-        return "data deleted"
+        json_data["scores"].clear()
+        return "data deleted ! Use the GET method to verify."
 
 @app.route('/scores/<score_value>', methods = ['GET', 'PATCH', 'PUT'])
 def score_value(score_value):
