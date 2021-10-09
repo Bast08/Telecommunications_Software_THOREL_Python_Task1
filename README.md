@@ -15,3 +15,6 @@ Progression :
 - Implementation of GET method (06/10/2021)
 - Implementation of an adaptative response for the scores data (a, b, c, others) (06/10/2021)
 - Implementation of POST method (07/10/2021)
+- Implementation of DELETE method (09/10/2021)
+- Implementation of PATCH method (09/10/2021)
+- Implementation of PUT method (09/10/2021)
